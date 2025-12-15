@@ -1,0 +1,11 @@
+.section {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.email {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--pop-color);
+  font-weight: 600;
+}
