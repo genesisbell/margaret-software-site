@@ -54,6 +54,7 @@ export default function Footer() {
           </a>
         </div>
         <p>{ `Copyright © ${ date }` }</p>
+        <a href="/privacy-policy" className="privacy-link">Privacy Policy</a>
       </div>
     </footer>
   );

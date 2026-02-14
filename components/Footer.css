@@ -48,3 +48,14 @@ footer hr {
   color: var(--text-fade);
   font-size: .9rem;
 }
+
+.privacy-link {
+  margin-top: 8px;
+  font-size: .8rem;
+  color: var(--text-fade);
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  color: var(--pop-color);
+}
