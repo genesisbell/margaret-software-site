@@ -1,6 +1,6 @@
-.section {
+#contact {
   text-align: center;
-  padding: 120px 20px;
+  background: var(--bg-primary);
 }
 
 .email {

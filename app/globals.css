@@ -1,35 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #14141B;
-    --pop-color: #FFCD38;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --text-fade: #7D7D7D;
+  --bg-primary: #23232e;
+  --bg-secondary: #14141B;
+  --pop-color: #FFCD38;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Space Mono', monospace;
-    font-size: 16px;
-    background: var(--bg-primary);
-    color: var(--text-primary);
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 section {
-    padding: 120px 20px;
+  padding: 120px 20px;
+}
+
+.dark {
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --text-fade: #7D7D7D;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+}
+
+.light {
+  --text-primary: #1f1f1f;
+  --text-secondary: #000000;
+  --text-fade: #C3C3C3;
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e4e4;
+}
+
+.solar {
+  --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --text-fade: #D4C69F;
+  --bg-primary: #fdf6e3;
+  --bg-secondary: #f5e5b8;
 }

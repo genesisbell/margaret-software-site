@@ -5,7 +5,7 @@
 
 
 import { useState } from "react";
-import styles from "./Navbar.module.css";
+import "./Navbar.css";
 import { getDictionary } from "@/lib/i18n";
 
 
@@ -19,12 +19,12 @@ export default function Navbar() {
 
 
   return (
-    <header className={ styles.header }>
-      <nav className={ styles.nav }>
-        <span className={ styles.logo }>{ i18n.navbar.brand }</span>
+    <header>
+      <nav className="nav">
+        <span className="logo">{ i18n.navbar.brand }</span>
 
 
-        <ul className={ `${ styles.links } ${ open ? styles.open : "" }` }>
+        <ul className={ `links ${ open ? "open" : "" }` }>
           <li><a href="#home" onClick={ handleCloseNavbar }>{ i18n.navbar.home }</a></li>
           <li><a href="#about" onClick={ handleCloseNavbar }>{ i18n.navbar.about }</a></li>
           <li><a href="#contact" onClick={ handleCloseNavbar }>{ i18n.navbar.contact }</a></li>
@@ -32,7 +32,7 @@ export default function Navbar() {
 
 
         <button
-          className={ styles.hamburger }
+          className="hamburger"
           onClick={ () => setOpen(!open) }
           aria-label="Toggle navigation menu"
           aria-expanded={ open }
