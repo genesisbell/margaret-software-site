@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
 
           {"items" in section && (
             <ul>
-              {section.items.map((item, i) => (
+              {section.items?.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}
             </ul>
